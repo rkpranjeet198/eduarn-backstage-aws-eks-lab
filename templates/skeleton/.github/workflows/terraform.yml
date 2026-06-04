@@ -18,5 +18,5 @@ jobs:
 
       - name: Deploy to Kubernetes
         run: |
-          aws eks update-kubeconfig --name eduarn-dev-cluster --region us-east-1
+          aws eks update-kubeconfig --name ranjeet-eduarn-dev-cluster --region us-east-1
           kubectl apply -f k8s/
