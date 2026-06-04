@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: eduarn-app
+  name: ranjeet-eduarn-app
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: eduarn-app
+      app: ranjeet-eduarn-app
   template:
     metadata:
       labels:
-        app: eduarn-app
+        app: ranjeet-eduarn-app
     spec:
       containers:
         - name: app
