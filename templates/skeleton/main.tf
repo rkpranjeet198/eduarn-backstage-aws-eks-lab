@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "project_name" {
-  default = "eduarn-dev"
+  default = "ranjeet-eduarn-dev"
 }
 
 
